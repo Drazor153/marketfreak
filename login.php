@@ -1,11 +1,38 @@
-<div>
-    <h2>Bienvenidos a MarketFreak</h2>
-    <p>Correo <input type="text"></p>
-    <p>Contraseña <input type="text"></p>
-    <p><input type="checkbox" name="admin" id=""> Eres administrador? </p>
-    <input type="button" value="Iniciar sesión">
-    <p>Olvidaste tu contraseña? <a href="">Recuperar contraseña</a></p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <?php include("head.php")?>
     
-    <p>Eres nuevo?</p>
-    <input type="button" value="Registrarse">
-</div>
+    <title>Iniciar sesión</title>
+</head>
+<body>
+    <header>
+
+        <?php include("top.php")?>
+    
+    <div>
+        <input type="button" value="Catálogo">
+        <input type="button" value="Soporte">
+        <a href="login.php"><input type="button" value="Iniciar sesión"></a>
+        <a href="register.php"><input type="button" value="Registrarse"></a>
+    </div>
+    </header>
+    <section>
+        <div>
+        <h2>Bienvenidos a MarketFreak</h2>
+        <form action="index.php" method="post">
+            Correo <input type="text" name="email"> <br>
+            Contraseña <input type="password" name="password"> <br>
+            <input type="checkbox" name="admin"> Administrador <br>
+            <input type="submit" value="Iniciar sesión">
+
+        </form>
+        <p>Olvidaste tu contraseña? <a href="">Recuperar contraseña</a></p>
+        
+        <p>Eres nuevo?</p>
+        <a href="register.php"><input type="button" value="Registrarse"></a>
+        </div>
+    </section>
+</body>
+</html>
+
