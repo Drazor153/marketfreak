@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;
