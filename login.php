@@ -4,8 +4,8 @@
     <p>Contraseña <input type="text"></p>
     <p><input type="checkbox" name="admin" id=""> Eres administrador? </p>
     <input type="button" value="Iniciar sesión">
+    <p>Olvidaste tu contraseña? <a href="">Recuperar contraseña</a></p>
     
-    <a href="">Recuperar contraseña</a>
     <p>Eres nuevo?</p>
     <input type="button" value="Registrarse">
 </div>

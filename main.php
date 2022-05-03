@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="lightstyle.css" id="css-theme">
+    <link rel="stylesheet" href="styles/lightstyle.css" id="css-theme">
     <!-- <link rel="stylesheet" href="header-style.css"> -->
 
     <script src="switchTheme.js"></script>
@@ -32,7 +32,7 @@
     </div>
     </header>
     <section>
-        <?php include("register.php")?>
+        <?php include("login.php")?>
     </section>
 </body>
 </html>
