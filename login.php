@@ -9,13 +9,7 @@
     <header>
 
         <?php include("top.php")?>
-    
-    <div>
-        <input type="button" value="Catálogo">
-        <input type="button" value="Soporte">
-        <a href="login.php"><input type="button" value="Iniciar sesión"></a>
-        <a href="register.php"><input type="button" value="Registrarse"></a>
-    </div>
+        <?php include("nav1.php") ?>
     </header>
     <section>
         <div>
@@ -23,7 +17,7 @@
         <form action="index.php" method="post">
             Correo <input type="text" name="email"> <br>
             Contraseña <input type="password" name="password"> <br>
-            <input type="checkbox" name="admin"> Administrador <br>
+            <input type="checkbox" name="admin" > Administrador <br>
             <input type="submit" value="Iniciar sesión">
 
         </form>

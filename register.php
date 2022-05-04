@@ -9,13 +9,7 @@
     <header>
 
         <?php include("top.php")?>
-    
-    <div>
-        <input type="button" value="Catálogo">
-        <input type="button" value="Soporte">
-        <a href="login.php"><input type="button" value="Iniciar sesión"></a>
-        <a href="register.php"><input type="button" value="Registrarse"></a>
-    </div>
+        <?php include("nav1.php") ?>
     </header>
     <section>
     <div>

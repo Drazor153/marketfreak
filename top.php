@@ -8,4 +8,5 @@
     </label>
     
     <input type="text" class="search-bar" id="hsearch-bar">
+    <input type="button" value="Buscar">
 </div>
