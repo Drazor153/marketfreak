@@ -1,8 +1,20 @@
+<?php
+session_start();
+if($_POST){
+    if (($_POST["email"] == "ejemplo@gmail.com") && ($_POST["password"] == "12345")) {
+        $_SESSION["usuario"] = "nombre_ejemplo";
+        header("location:index.php");
+    }
+    else {
+        echo "<script> alert('Correo y/o contraseña incorrectos'); </script>";
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <?php include("head.php")?>
-    
     <title>Iniciar sesión</title>
 </head>
 <body>
@@ -14,10 +26,13 @@
     <section>
         <div>
         <h2>Bienvenidos a MarketFreak</h2>
-        <form action="index.php" method="post">
-            Correo <input type="text" name="email"> <br>
-            Contraseña <input type="password" name="password"> <br>
-            <input type="checkbox" name="admin" > Administrador <br>
+        <form action="login.php" method="post">
+            Correo: <input type="text" name="email"> 
+            <br>
+            Contraseña: <input type="password" name="password"> 
+            <br>
+            <input type="checkbox" name="admin" > Administrador 
+            <br>
             <input type="submit" value="Iniciar sesión">
 
         </form>

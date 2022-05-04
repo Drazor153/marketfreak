@@ -5,6 +5,5 @@ function changeTheme() {
         document.getElementById("css-theme").href = "styles/darkstyle.css"
     }else{
         document.getElementById("css-theme").href = "styles/lightstyle.css"
-
     }
 }

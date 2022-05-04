@@ -1,3 +1,7 @@
+<?php
+session_start();
+print_r($_SESSION);
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,6 +14,7 @@
 
         <?php include("top.php")?>
         <?php include("nav1.php") ?>
+        
     </header>
     <section>
         <?php
@@ -24,7 +29,6 @@
 
                 
             }
-            echo $_SERVER['DOCUMENT_ROOT'];
         ?>
     </section>
 </body>

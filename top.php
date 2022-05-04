@@ -1,5 +1,5 @@
 <div>
-    <a href="/marketfreak"><img src="logo.png" alt="logo" id="logo"></a>
+    <a href="index.php"><img src="logo.png" alt="logo" id="logo"></a>
     
     <!-- SLIDER -->
     <label class="switch">
