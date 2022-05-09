@@ -14,14 +14,6 @@
     <section>
         <?php
             if ($_POST) {
-                $email = $_POST['email'];
-                $password = $_POST['password'];
-
-                echo "Tu correo es: ".$email;
-                if (isset($_POST['admin'])) {
-                    echo " y eres admin";
-                }
-
                 
             }
             echo $_SERVER['DOCUMENT_ROOT'];

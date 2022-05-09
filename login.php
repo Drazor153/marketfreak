@@ -1,3 +1,14 @@
+<?php 
+if (isset($_POST["email"])) {
+    if ($_POST["email"] != "") {
+        echo "<script> alert('Login presionado') </script>";
+        header("Location: index.php");
+        die();
+    }
+    
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -14,7 +25,7 @@
     <section>
         <div>
         <h2>Bienvenidos a MarketFreak</h2>
-        <form action="index.php" method="post">
+        <form action="login.php" method="post">
             Correo <input type="text" name="email"> <br>
             Contraseña <input type="password" name="password"> <br>
             <input type="checkbox" name="admin" > Administrador <br>

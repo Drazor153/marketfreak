@@ -1,5 +1,5 @@
 <div>
-    <a href="/marketfreak"><img src="logo.png" alt="logo" id="logo"></a>
+    <a href="/marketfreak"><img src="logo.png" alt="texto por si no aparece el logo" id="logo"></a>
     
     <!-- SLIDER -->
     <label class="switch">
