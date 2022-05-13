@@ -2,8 +2,8 @@ function changeTheme() {
     var check = document.getElementById("slider-theme")
     var state = check.checked
     if (state) {
-        document.getElementById("css-theme").href = "styles/darkstyle.css"
+        document.getElementById("css-theme").href = "styles/dark.css"
     }else{
-        document.getElementById("css-theme").href = "styles/lightstyle.css"
+        document.getElementById("css-theme").href = "styles/light.css"
     }
 }

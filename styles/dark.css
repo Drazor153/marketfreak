@@ -1,4 +1,11 @@
 body {
     background-color: #212121;
     color: white;
+    animation-name: anim;
+    animation-duration: 1s;
+}
+
+@keyframes anim {
+    from {background-color: white;}
+    to {background-color: black;}
 }
