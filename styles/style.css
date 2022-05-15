@@ -1,3 +1,18 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: rgb(33,33,33);
+    color: white;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
 
 /* The switch - the box around the slider */
 .switch {

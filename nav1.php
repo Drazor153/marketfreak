@@ -1,4 +1,4 @@
-<div>
+<div class="nav">
     <a href="catalogo.php">Catalogo></a> |
     <a href="soporte.php">Soporte</a> |
     <a href="login.php">Iniciar sesion</a> |

@@ -1,9 +1,6 @@
 function changeTheme() {
+    var bod = document.body
     var check = document.getElementById("slider-theme")
     var state = check.checked
-    if (state) {
-        document.getElementById("css-theme").href = "styles/dark.css"
-    }else{
-        document.getElementById("css-theme").href = "styles/light.css"
-    }
+    state ? bod.className = "dark-mode" : bod.className = "light-mode"
 }
