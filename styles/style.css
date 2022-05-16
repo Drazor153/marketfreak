@@ -4,13 +4,29 @@ body {
 }
 
 .dark-mode {
+    animation-name: anim_d;
+    animation-duration: 0.2s;
     background-color: rgb(33,33,33);
     color: white;
 }
 
 .light-mode {
+    animation-name: anim_l;
+    animation-duration: 0.2s;
     background-color: white;
     color: black;
+}
+@keyframes anim_l{
+    from {background-color: rgb(33,33,33);
+        color: white;}
+    to {background-color: white;
+        color: black;}
+}
+@keyframes anim_d{
+    from {background-color: white;
+        color: black;}
+    to {background-color: rgb(33,33,33);
+        color: white;}
 }
 
 
